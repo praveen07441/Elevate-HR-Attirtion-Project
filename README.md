@@ -1,7 +1,7 @@
 # Elevate-HR-Attirtion-Project
 
-# USED PYTHON 
-# importing the required libraries
+## USED PYTHON 
+### importing the required pyhton libraries
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -56,7 +56,7 @@ y = df['Attrition']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 
-# Test the Classification Model
+#Test the Classification Model
 
 from sklearn.tree import DecisionTreeClassifier
 
